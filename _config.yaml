@@ -1,5 +1,5 @@
 # Build settings
-theme: jekyll-theme-minima
+theme: jekyll-theme-minimal
 title: Finlay's Website
 
 plugins:
