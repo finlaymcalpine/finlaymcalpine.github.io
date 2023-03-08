@@ -1,5 +1,6 @@
 # Build settings
-theme: minimal
+theme: jekyll-theme-minima
+title: Finlay's Website
 
 plugins:
   - jekyll-relative-links
