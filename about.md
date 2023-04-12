@@ -6,4 +6,4 @@ Most recently I worked for an alternative data form in NYC, where I wore a numbe
 
 I'm looking for a new role that takes me away from dealing with reports and deliverables and with the chance to do more stats driven work (something I miss compared to a couple years ago).
 
-The best way to reach me is at: finlay [dot] mcalpine1 [at] gmail [dot] com
+The best way to reach me is at: hello [at] finlaymcalpine [dot] com
