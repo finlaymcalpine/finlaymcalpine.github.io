@@ -1,6 +1,6 @@
 # Build settings
 theme: minima
-title: Finlay's Website
+title: Finlay McAlpine
 
 plugins:
   - jekyll-relative-links
