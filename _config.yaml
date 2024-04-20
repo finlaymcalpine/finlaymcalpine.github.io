@@ -1,6 +1,6 @@
 # Build settings
-theme: minima
-title: "FM"
+theme: chirpy
+title: "FMcA"
 author: "Finlay McAlpine"
 
 plugins:
