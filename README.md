@@ -1,6 +1,4 @@
-# Finlay McAlpine
-
-Data person, former economist, occasional climber.
+Data person, economist, occasional runner & climber.
 
 Been throwing scripts & notebooks together for a while: trying to formalize it.
 
