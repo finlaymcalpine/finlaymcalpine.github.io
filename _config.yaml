@@ -1,6 +1,7 @@
 # Build settings
 theme: minima
-title: Finlay McAlpine
+title: "FM"
+author: "Finlay McAlpine"
 
 plugins:
   - jekyll-relative-links
