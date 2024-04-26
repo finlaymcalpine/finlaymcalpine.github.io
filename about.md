@@ -1,3 +1,9 @@
+---
+layout: page
+title: "About"
+permalink: /about
+---
+
 I'm an economist and data professional, with a mixed background of building forecasting models and data pipelines focused on economic and financial data.
 
 Most recently I worked for an alternative data form in NYC, where I wore a number of analysis-hats: creating analytics pipelines to track KPIs, building webscrapers to grab data from new sources, and implementing new tooling to share data feeds with clients.
