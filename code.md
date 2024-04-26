@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Code"
 permalink: /code
+---
 
 Some miscellaneous notebooks. Some of these may be merged into posts in the future.
 
