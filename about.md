@@ -10,7 +10,7 @@ Most recently I worked for an alternative data form in NYC, where I wore a numbe
 
 Prior to that, I have mostly worked on economic and financial data: building forecasting models and interpreting economic data.
 
-I have a broad set of experience working with stakeholders ranging from goverment policymakers to investment firms. With that comes a strong understanding od 
+I have a broad set of experience working with stakeholders ranging from goverment policymakers to investment firms. With that comes a strong understanding of the importance of clear communication with the end users of analysis.
 
 I'm looking for a new role with the chance to do work that uses statistical modelling to inform decionmaking, and has a real impact on the direction of a team & firm.
 
