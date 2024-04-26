@@ -1,5 +1,5 @@
 Data person, economist, occasional runner & climber.
 
-Been throwing scripts & notebooks together for a while: trying to formalize it. I might slowly add some of these notes here.
+This is emphatically not a blog: I will however try to post a few things I have written in the past, and try to write the occasional thought down in future. Most things will take time to get put into markdown, so any pages here are likely to be a work-in-progress.
 
 hello [at] finlaymcalpine [dot] com
