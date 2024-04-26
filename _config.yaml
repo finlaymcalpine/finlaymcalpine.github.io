@@ -17,5 +17,5 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - ABOUT.md
-  - CODE.md
+  - about.md
+  - code.md
