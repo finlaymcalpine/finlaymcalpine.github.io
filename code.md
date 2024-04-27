@@ -1,9 +1,11 @@
 ---
 layout: page
-title: "Code"
+title: "Code Notebooks"
 permalink: /code
 ---
 
-Some miscellaneous notebooks. Some of these may be merged into posts in the future.
+Some miscellaneous code notebooks that I've put together.
 
-- A couple of computational exercises from All of Statistics, Chapter 1: [link](https://github.com/finlaymcalpine/finlaymcalpine.github.io/blob/main/_code/all_of_stats_ch1.ipynb)
+A few exercises from Wasserman's All of Statistics. I like this book for reference. It has a good level of detail but is not overly verbose.
+
+- A couple of computational exercises from All of Statistics, [Chapter 1](/_code/all_of_stats_ch1.ipynb)
