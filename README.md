@@ -1,5 +1,5 @@
 
-![Scotland Topography](_assets/images/scotland_topo.png)
+![Scotland Topographic Map](docs/assets/images/scotland_topo.png)
 
 Data person, economist, occasional runner & climber.
 
