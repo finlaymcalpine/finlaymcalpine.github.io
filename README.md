@@ -1,1 +1,1 @@
-Source code for my personal site: [finlaymcalpine.com](www.finlaymcalpine.com)
+Source code for my personal site.
