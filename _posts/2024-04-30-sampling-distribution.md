@@ -9,4 +9,4 @@ In the future, I'll try to expand on the ideas in this notebook by considering h
 
 I'll acknowledge on this George Lentzas, for his persistence in covering a topic that is often quickly stated and then invoked without a proper explanation of the underlying idea.
 
-_As usual, please reach out with corrections or comments to hello@finlaymcalpine.com_
+_As usual, please reach out with corrections or comments to feedback@finlaymcalpine.com_

@@ -68,4 +68,4 @@ If we don't have normally distributed errors, there can be issues with point est
 
 
 
-_I appreciate any corrections or feedback to hello@finlaymcalpine.com_
+_I appreciate any corrections or feedback to feedback@finlaymcalpine.com_

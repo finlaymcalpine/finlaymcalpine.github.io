@@ -19,4 +19,4 @@ Specifically, this all reminded me of a 1994 [paper](https://davidcard.berkeley.
 
 Now, I have no knowledge of either earthquakes or oil and gas extraction. So whether there is any question that this kind of natural experiment can answer is for someone else to judge. But it's nice to be able to visualize the kind of 'line on a map' differences that present opportunities to conduct experiments on observational data.
 
-_As usual, please reach out with corrections or comments to hello@finlaymcalpine.com_
+_As usual, please reach out with corrections or comments to feedback@finlaymcalpine.com_
