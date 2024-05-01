@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Natural Experiments in WSJ"
+categories: [Short Posts, Econometrics]
 ---
 
 I read an [article](https://www.wsj.com/business/energy-oil/in-americas-biggest-oil-field-the-ground-is-swelling-and-buckling-9d66eb42?mod=hp_lead_pos9) this weekend in the Wall Street Journal that reminded me of the interesting way that natural experiments can arise. 
