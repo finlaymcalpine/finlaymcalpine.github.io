@@ -1,3 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
 Economist, data person, occasional runner & climber.
 
 This is a home for some thoughts I've put down on paper or on a screen. It's not a blog, but I am trying to get some past content up here.

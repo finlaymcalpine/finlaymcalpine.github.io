@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-permalink: /about
+title: About
+permalink: /about/
 ---
 
 I'm an economist and data professional, with a mixed background of building forecasting models and data pipelines focused on economic and financial data.
@@ -15,3 +15,4 @@ I have a broad set of experience working with stakeholders ranging from govermen
 I'm looking for a new role with the chance to do work that uses statistical modelling to inform decionmaking, and has a real impact on the direction of a team & firm.
 
 The best way to reach me is: hello [at] finlaymcalpine [dot] com
+
