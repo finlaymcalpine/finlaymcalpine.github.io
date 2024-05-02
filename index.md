@@ -6,5 +6,5 @@ Not everything here will be data-oriented. I may, from time to time, add some th
 
 It will forever remain a work-in-progress.
 
-![Scotland Topographic Map](docs/assets/images/scotland_topo.png){height="250": width="200"}
+![Scotland Topographic Map](docs/assets/images/scotland_topo.png){: width="250"}
 The Topography of Scotland
