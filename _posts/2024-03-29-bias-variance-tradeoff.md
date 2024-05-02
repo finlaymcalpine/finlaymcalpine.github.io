@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Bias-Variance Tradeoff"
-categories: [Statistics, Econometrics]
+categories: ["statistics", "econometrics"]
 ---
 
 I originally wrote this as a standalone, but have updated it to tie in with notes on the [Linear Regression Assumptions](_posts/2024-04-15-the-linear-regression-model.md). There's a nice connection between certain assumptions (and the consequences of their violation) and the tradeoff between bias and variance in statistics and machine learning, and I wanted to make that connection more explicit.

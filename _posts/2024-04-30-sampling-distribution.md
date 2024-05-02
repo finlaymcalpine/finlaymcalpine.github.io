@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes on a Sampling Distribution"
-categories: [Statistics, Econometrics]
+categories: ["statistics", "econometrics"]
 ---
 
 I have a short notebook [here](../docs/code/sampling_distribution.ipynb) that originated a number of years ago. During a forceful presentation of the importance of the sampling distribution in a stats class, I discovered that I'd been lazily glossing over the definition and I wasn't fully grasping its importance. After playing about with some code, I think the idea becomes sharper in the mind than by just reading words on a page. I hope the notebook sheds some light on the idea.

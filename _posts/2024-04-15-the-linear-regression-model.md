@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Assumptions of the Linear Model"
-categories: [Statistics, Econometrics]
+categories: ["statistics", "econometrics"]
 ---
 
 The linear regression model is widely used, but it's not always intuitive or well understood. This post aims to briefly cover the linear model as laid out for Ordinary Least Squares, the assumptions involved, and what those assumptions allow us to do with the results of our regression.
