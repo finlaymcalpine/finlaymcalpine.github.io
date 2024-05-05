@@ -28,7 +28,7 @@ Suppose that the price of a bond fell and the associated YtM rose above the inte
 
 In Rust, we can price the bond - if given a yield - as follows:
 
-```
+```rust
 struct SimpleBond {
     face_value: f32,
     coupon: f32,
@@ -54,7 +54,8 @@ impl SimpleBond {
 Here, we've created a SimpleBond struct to hold the data we need for the bond (we'll add more data later, along with methods to calculate them), and then an implementation for a price function that takes the data and generates the price according to the formula above.
 
 We can test the approximate performance of this calculator by using the example of the current 10 year UST bond on 5/2/2024. The bond has a maturity of 2/15/2034, so an accurate price would have to account for accrued interest and the less than full remaining coupon period.
-```
+
+```rust
 fn main() {
 
     // details for TMUBMUSD10Y bond on 5/2/2024
