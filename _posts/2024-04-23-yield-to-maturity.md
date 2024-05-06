@@ -76,6 +76,6 @@ The code used here can be found in [this repo](https://github.com/finlaymcalpine
 
 _As always, I appreciate any corrections or feedback to feedback@finlaymcalpine.com_
 
-[^1] As before, I'll refer to Luenberger's _Investment Science_ textbook
+[^1]: As before, I'll refer to Luenberger's _Investment Science_ textbook
 
-[^2] The choice of 'sufficiently small' depends on the context: in this case the function accepts an argument to define this 'tolerance'. There are also concerns about convergence with numerical algorithms like this. I won't cover that here, but those are discussed in the Wikipedia page linked and in other sources
+[^2]: The choice of 'sufficiently small' depends on the context: in this case the function accepts an argument to define this 'tolerance'. There are also concerns about convergence with numerical algorithms like this. I won't cover that here, but those are discussed in the Wikipedia page linked and in other sources
