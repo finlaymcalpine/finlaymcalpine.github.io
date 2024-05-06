@@ -4,7 +4,7 @@ title: "Pricing a fixed income bond using Rust"
 tags: ["finance", "fixed-income", "rust"]
 ---
 
-This post is a quick primer on pricing a bond in fixed income markets, and some accompanying Rust code to calculate that price. I plan to extend to some other concepts (yield, duration) in future.
+This post is a quick primer on pricing a bond in fixed income markets, and some accompanying Rust code to calculate that price. I plan to extend to some other concepts (yield, duration) in future. See the incomplete code in [this repo](https://github.com/finlaymcalpine/bond_pricing/tree/main) for the source of code.
 
 I'm going to reference the book _Investment Science_ by Luenberger, which is a really nice reference for the basics of financial markets from a quantitative viewpoint. A more detailed reference focused on empirical applications is _The Econometrics of Financial Markets_ by Lo, et. al. Finally, an overview of bonds by [PIMCO](https://www.pimco.com/en-us/marketintelligence/bond-basics/what-impacts-the-price-and-performance-of-bonds/) is a good quick overview of the ideas.
 
@@ -35,21 +35,27 @@ struct SimpleBond {
     frequency: f32,
     maturity: f32,
     yield_to_maturity: f32,
+    price: f32,
 }
 
 impl SimpleBond {
     
     // We'll calculate the principal and coupon flow present values separately, and then combine them
-    fn price(&self) -> f32{
-        let pv_principal = self.face_value/((1.0 + (self.yield_to_maturity/self.frequency)).powf(self.maturity*self.frequency));
+    fn solve_price(&mut self) -> f32 {
+        let pv_principal: f32 = self.face_value
+            / ((1.0 + (self.yield_to_maturity / self.frequency))
+                .powf(self.maturity * self.frequency));
 
-        let pv_coupon = ((self.coupon*self.face_value)/self.yield_to_maturity) * (1.0 - (1.0/((1.0 + (self.yield_to_maturity/self.frequency)).powf(self.maturity*self.frequency))));
+        let pv_coupon: f32 = ((self.coupon * self.face_value) / self.yield_to_maturity)
+            * (1.0
+                - (1.0
+                    / ((1.0 + (self.yield_to_maturity / self.frequency))
+                        .powf(self.maturity * self.frequency))));
 
-        let price = pv_principal + pv_coupon;
+        self.price = pv_principal + pv_coupon;
 
-        return price
+        self.price
     }
-}
 ```
 Here, we've created a SimpleBond struct to hold the data we need for the bond (we'll add more data later, along with methods to calculate them), and then an implementation for a price function that takes the data and generates the price according to the formula above.
 
@@ -65,13 +71,16 @@ fn main() {
         frequency: 2.0,
         maturity: 10.0,
         yield_to_maturity: 0.04584,
+        price: 0.0, // we have to give some float to fill out the struct.
     };
 
-    println!("10 year UST price on 5/2/2024: ${}", bond1.price());
+    println!("10 year UST price on 5/2/2024: ${}", bond1.solve_price());
 }
 ```
 
 This gives the output `10 year UST price on 5/2/2024: $953.5723`. Compare this to the market published price of `95 4/32`, which equals to `(4/32 * 100) = 12.5bp => 1000 * 0.95125 = $951.25`. So our simple implementation gives an approximately correct result.
+
+_I appreciate any corrections or feedback to feedback@finlaymcalpine.com_
 
 [^1]: See Luenberger pg. 46
 
