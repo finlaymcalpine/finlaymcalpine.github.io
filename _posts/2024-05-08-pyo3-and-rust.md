@@ -45,7 +45,7 @@ print(
 
 When we run this file in the terminal, we get the following output:
 
-![terminal screenshot](../docs/assets/images/pyo3testscreenshot.png)
+![terminal screenshot](docs/assets/images/pyo3testscreenshot.png)
 
 which is what we expect, and matches up with the output of the Rust code we created previously.
 
@@ -57,4 +57,4 @@ The next steps for this small program is to make it robust - both to computation
 
 _As always, I appreciate any corrections or feedback to feedback@finlaymcalpine.com_
 
-[^1]: While there's no question that the speed benefits of a language like Rust are of little use in a simple case like this, it's an entry point into the general concept of using high-performance languages under the hood. And Rust is an interesting language that's gaining a lot of traction in the data space, e.g. it's the underlying engine behind the Polars DataFrame library
+[^1]: While there's no question that the speed benefits of a language like Rust are of little use in a simple case like this, it's an entry point into the general concept of using high-performance languages under the hood. And Rust is an interesting language that's gaining a lot of traction in the data space, e.g. it's the engine behind the Polars DataFrame library
