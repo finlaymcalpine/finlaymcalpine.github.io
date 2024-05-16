@@ -45,7 +45,7 @@ print(
 
 When we run this file in the terminal, we get the following output:
 
-![terminal screenshot](docs/assets/images/pyo3testscreenshot.png)
+![terminal screenshot](/docs/assets/images/pyo3testscreenshot.png)
 
 which is what we expect, and matches up with the output of the Rust code we created previously.
 

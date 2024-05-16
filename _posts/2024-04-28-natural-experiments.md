@@ -10,7 +10,7 @@ In discussing the rapid growth of oil extraction in the Delaware Basin - spannin
 
 The screenshot below highlights the stark disparity in wastewater disposal volumes on either side of the New Mexico-Texas border, and one of the explanations given is the much looser regulatory constraints imposed in Texas. In recent years many firms have taken to extracing wastewater from wells in New Mexico and shipping it over to Texas for disposal.
 
-![Water disposal in the Delaware Basin](docs/assets/images/wsj-article-permian-apr2024.png)Source: WSJ
+![Water disposal in the Delaware Basin](/docs/assets/images/wsj-article-permian-apr2024.png)Source: WSJ
 
 The (at least visibly) pretty clear difference in deposited volumes across the state line _could_ be due to a number of factors (geology, cost, etc.) but one thing we can suggest as a reason is the difference in regulation on either side of the border. Clear borders of some kind (in this case regulatory) between otherwise similar areas can be a really interesting tool for analyzing the effects of interventions on different groups. 
 
